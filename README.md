@@ -20,9 +20,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## 1.To Write a C program that illustrates files copying 
-
-
-```
+```c
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -40,10 +38,9 @@ exit(0);}
 ```
 
 
-
-
 ## 2.To Write a C program that illustrates files locking
-```
+```c
+//C program that illustrates files locking goes here
 #include <fcntl.h>
 #include <stdio.h>
 #include <string.h>
@@ -86,11 +83,11 @@ return 0;
 
 
 ## OUTPUT
+### filecopy.o
+![image-1](https://github.com/user-attachments/assets/7582ec6b-8160-4d87-a40a-7dc347961d38)
 
-![Screenshot 2024-10-16 181817](https://github.com/user-attachments/assets/8cbe9b31-0860-4ead-a856-d6c9523bf0a2)
-![Screenshot 2024-10-16 192545](https://github.com/user-attachments/assets/42bbe9b0-5f1b-45d6-bb65-451bc373d957)
-
-
+### lock.o
+![image-2](https://github.com/user-attachments/assets/d4a2138f-e910-4f45-b99e-591607c22a48)
 
 
 # RESULT:
